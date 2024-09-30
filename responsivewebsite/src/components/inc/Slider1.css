@@ -1,0 +1,70 @@
+/* Carousel Container */
+.carousel {
+    width: 100%; /* Carousel genişliği tam ekran */
+    max-width: 1200px; /* Maksimum genişlik sınırı */
+    margin: 0 auto; /* Ortala */
+    padding-top: 0; /* Üstten boşluk bırakma */
+    padding-bottom: 20px; /* Alt kısımdan boşluk bırak */
+    background-color: #ffffff; /* Arka plan rengi */
+    position: relative; /* Üste yapışık olmasını sağla */
+    top: 0; /* Carousel'in üstte yapışmasını sağla */
+}
+
+/* Resimlerin tam genişlikte görünmesini sağlayın */
+.carousel-item img {
+    width: 100%; /* Genişlik tam */
+    height: 70vh; /* Yükseklik ekranın %70'i kadar olacak */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Hafif gölge efekti */
+    object-fit: cover; /* Resim kesilir, taşmaz */
+}
+
+/* Medya sorgusu: Tablet ve daha küçük ekranlar için */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 50vh; /* Küçük ekranlarda %50 yükseklik */
+    }
+
+    .carousel {
+        padding: 10px 0; /* Daha küçük padding */
+    }
+}
+
+/* Medya sorgusu: Telefonlar için */
+@media (max-width: 480px) {
+    .carousel-item img {
+        height: 30vh; /* Telefonlarda %30 yükseklik */
+    }
+}
+
+/* Carousel Control Icons (Previous/Next) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Siyah yarı saydam arka plan */
+    border-radius: 50%; /* Yuvarlak yapı */
+    padding: 10px; /* İç boşluk */
+}
+
+/* Navbar markasının stilini geliştirelim */
+.navbar-brand {
+    font-size: 1.5rem; /* Yazı boyutu */
+    color: #000; /* Siyah renk */
+    font-weight: bold; /* Kalın yazı */
+    text-decoration: none; /* Altını çizme */
+}
+
+.navbar-brand:hover {
+    color: #ff6347; /* Hover sırasında turuncu renk */
+}
+
+/* Carousel içindeki resimlerin altında boşluk bırakalım */
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+/* Slider'ın genel stilini düzenleyelim */
+.slider-container {
+    background-color: #000000; /* Siyah arka plan */
+    padding: 20px; /* Çevresinde boşluk */
+    border-radius: 15px; /* Köşeleri yuvarlat */
+}

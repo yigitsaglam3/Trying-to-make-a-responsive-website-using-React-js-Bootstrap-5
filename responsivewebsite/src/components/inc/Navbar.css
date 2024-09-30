@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+/* Navbar arka plan rengi */
+.navbar {
+    background-color: #000000; 
+    margin-top: 0%;
+  }
+  
+  /* Navbar marka yazı rengi */
+  .navbar .navbar-brand {
+    color: #ff0000; /* Varsayılan yazı rengi */
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #ff0000; /* Hover durumundaki rengi ayarlayın */
+    text-decoration: none; /* Altını çizili olmasın */
+  }
+  
+.container-fluid{
+    background-color: #020000;
+    margin: 0%;
+
+}
+
+  /* Profil resmi stili */
+.navbar-profile {
+  display: flex; /* Flexbox kullanarak yan yana hizala */
+  align-items: center; /* Dikey olarak ortala */
+  margin-right: 20px; /* Sağdan boşluk bırak */
+}
+
+.profile-pic {
+  width: 50px; /* Genişlik */
+  height: 50px; /* Yükseklik */
+  border-radius: 50%; /* Yuvarlak yapmak için */
+  margin-right: 10px; /* Resim ile metin arasında boşluk */
+}
+
+.profile-name {
+  font-size: 1rem; /* Yazı boyutu */
+  color: #000; /* Yazı rengi */
+}
