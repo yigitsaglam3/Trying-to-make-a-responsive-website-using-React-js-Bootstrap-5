@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import fmpp from "D:/responsivewebsite/responsivewebsite/src/components/images/fmpp.jpg"; // Doğru resim yolunu import ettik.
-
+import slider from "../images/image-slider-2.jpg";
 import "./Slider1.css";
 
 function Slider1() {
@@ -13,13 +13,23 @@ function Slider1() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={fmpp} className="d-block w-100" alt="First slide" />
+            <img src={slider} className="d-block w-100" alt="First slide" />
+            <div class="carousel-caption">
+              <h5 className="h5renk">First slider</h5>
+            </div>
+            
           </div>
           <div className="carousel-item">
-            <img src={fmpp} className="d-block w-100" alt="Second slide" />
+            <img src={slider} className="d-block w-100" alt="Second slide" />
+            <div class="carousel-caption">
+              <h5 className="h5renk">Second slider</h5>
+            </div>
           </div>
           <div className="carousel-item">
-            <img src={fmpp} className="d-block w-100" alt="Third slide" />
+            <img src={slider} className="d-block w-100" alt="Third slide" />
+            <div class="carousel-caption">
+              <h5 className="h5renk">Third slider</h5>
+            </div>
           </div>
         </div>
         <button
