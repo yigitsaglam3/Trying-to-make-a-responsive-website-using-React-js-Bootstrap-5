@@ -13,7 +13,7 @@ function Slider1() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slider} className="d-block w-100" alt="First slide" />
+            <img src={slider} className="d-block w-100 fade-in" alt="First slide" />
             <div class="carousel-caption">
               <h5 className="h5renk">First slider</h5>
             </div>

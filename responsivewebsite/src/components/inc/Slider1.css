@@ -72,3 +72,13 @@
     color: #000;
 }
 
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards; /* 2s is the duration */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
